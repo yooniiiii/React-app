@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+}
+
+@font-face {
+  font-family: "GangwonEduSaeeum_OTFMediumA";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #466f47;
+}
+
+#root {
+  max-width: 768px;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fffdf1;
+}
+
+button {
+  border: none;
+}
+
+.fs32 {
+  font-size: 2rem;
+  color: #466f47;
+}
+
+header {
+  position: fixed;
+  max-width: 768px;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+main {
+  padding: 3.125rem 1rem 0 1rem;
+}
+
+footer {
+  background-color: #466f47;
+  padding: 0.75rem 1rem;
+  position: fixed;
+  bottom: 0;
+  max-width: 768px;
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.sec {
+  margin-bottom: 2.25rem;
+}
+
+.title {
+  text-align: left;
+  margin-bottom: 0.75rem;
+}
+
+.stamp {
+  border: 1px solid #e0ae48;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  color: #e0ae48;
+}
+
+.week {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.stamp-button {
+  background-color: #e0ae48;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.stamp-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stamp-circle,
+.stamp-circle-on {
+  padding: 0.375rem;
+  border: 1px solid #e0ae48;
+  border-radius: 100%;
+}
+
+.stamp-circle {
+  border: 1px solid #818181;
+  color: #818181;
+}
+
+.hot-list {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.hot-list li {
+  width: 150px;
+  margin-right: 0.75rem;
+  text-align: left;
+}
+
+.hot-list li img {
+  width: 150px;
+  height: 160px;
+  border-radius: 0.75rem;
+}
+
+.list-tit {
+  font-size: 1.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-own {
+  color: #466f47;
+}
+
+.com-list {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.com-list li {
+  margin-right: 0.5rem;
+  width: 361px;
+  border: 1px solid #466f47;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+}
+
+.com-list com-tit {
+  color: #466f47;
+}
+
+.com-list .com-view {
+  color: #e0ae48;
+  text-align: right;
+}
